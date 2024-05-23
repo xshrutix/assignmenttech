@@ -1,0 +1,117 @@
+.outer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Adjust as needed */
+  }
+  
+  .first-box {
+    /* Define styles for the first box */
+  }
+  
+  .second-box {
+    width: 100%; /* Ensure the image takes up full width */
+    max-width: 1152px; /* Set maximum width */
+    height: auto; /* Allow height to adjust according to width */
+  }
+  
+  .third-box {
+    /* Define styles for the third box */
+    width: 100%; /* Ensure the image takes up full width */
+    max-width: 1152px; /* Set maximum width */
+    height: auto; 
+  }
+  
+  .third-box-inner {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .third-box-left,
+  .third-box-right {
+    /* Define styles for the two boxes inside the third box */
+  }
+  .box {
+    flex: 1;
+    text-align: center;
+  }
+  .meow{
+    height: 188px;
+
+  }
+  .custom-outer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .custom-heading {
+    margin-bottom: 20px;
+  }
+  
+  .custom-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .custom-card {
+    width: 360px;
+    height: 280px;
+    border-radius: 24px;
+    box-shadow: rgba(171, 190, 209, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(248, 246, 255, 1)
+    ;
+    padding: 10px;
+  }
+  .map-container {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    border-radius: 24px;
+  }
+  
+  .map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+ 
+  .custom-card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .custom-card-body img {
+    width: 64px;
+    height: 64px;
+  }
+  
+  .custom-card-body h3 {
+    margin: 10px 0;
+  }
+  
+  .custom-card-body p {
+    margin: 0;
+  }
+  
+  @media (max-width: 1200px) {
+    .custom-card-container {
+      justify-content: center;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .custom-card {
+      width: 100%;
+      max-width: 360px;
+    }
+  }
+  

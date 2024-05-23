@@ -1,0 +1,42 @@
+/* Banner.css */
+.custom-banner {
+  background-color: #e7e8ec;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 112px;
+  width: 100%;
+}
+
+.custom-divider {
+  background-color: #ededed;
+  margin-bottom: 111px;
+  width: 100%;
+  height: 1px;
+}
+
+.custom-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.custom-title {
+  margin-bottom: 32px;
+  word-break: break-word;
+  font-weight: normal;
+  font-size: 40px;
+  color: #000000;
+}
+
+.custom-text {
+  max-width: 47rem;
+  margin: auto;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #4d4d4d;
+}

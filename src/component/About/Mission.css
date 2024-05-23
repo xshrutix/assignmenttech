@@ -1,0 +1,174 @@
+.mission-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 2rem; /* Increase left and right padding */
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 100px;
+  background-color: white;
+}
+
+@media (min-width: 1280px) {
+  .mission-container {
+    padding: 0 8rem; /* Consistent padding for larger screens */
+    flex-direction: row;
+  }
+}
+
+.mission-text-container {
+  margin-right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+@media (min-width: 1024px) {
+  .mission-text-container {
+    margin-right: 0.5rem;
+    padding-top: 4rem;
+  }
+}
+
+.mission-title {
+  text-align: center;
+  margin-bottom: 1rem;
+  display: inline-block;
+  align-self: flex-start;
+  word-break: break-word;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 1.875rem; /* 3xl */
+  color: #000000;
+}
+
+@media (min-width: 1024px) {
+  .mission-title {
+    margin-bottom: 1.5rem;
+    font-size: 2.25rem; /* 4xl */
+  }
+}
+
+@media (min-width: 1280px) {
+  .mission-title {
+    font-size: 3.125rem; /* 5xl */
+    padding-left: 0rem;
+  }
+}
+
+.mission-description {
+  word-break: break-word;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem; /* sm */
+  line-height: 1.75;
+  color: #4d4d4d;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+@media (min-width: 1024px) {
+  .mission-description {
+    font-size: 1rem; /* base */
+  }
+}
+
+@media (min-width: 1280px) {
+  .mission-description {
+    font-size: 1.125rem; /* lg */
+    margin: 0;
+    padding-left: 0rem;
+  }
+}
+
+.mission-images-container {
+  margin-left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+@media (min-width: 1024px) {
+  .mission-images-container {
+    margin-left: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto;
+    gap: 1.5rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .mission-images-container {
+    grid-template-columns: repeat(2, 300px); /* Increase grid size on x-axis */
+    grid-template-rows: 180px 198px;
+  }
+}
+
+.mission-image {
+  border-radius: 1rem;
+  background-color: #e7e8ec;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 180px;
+  box-sizing: border-box;
+  transition: transform 0.5s;
+  margin-bottom: 1rem;
+}
+
+.mission-image:hover {
+  transform: scale(1.05);
+}
+
+@media (min-width: 640px) {
+  .mission-image {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .mission-image {
+    width: 100%;
+  }
+}
+
+.image-content {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+.mission-image-large {
+  border-radius: 1rem;
+  background-color: #e7e8ec;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 198px;
+  box-sizing: border-box;
+  transition: transform 0.5s;
+  grid-column: span 2;
+}
+
+.mission-image-large:hover {
+  transform: scale(1.05);
+}
+
+@media (min-width: 640px) {
+  .mission-image-large {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .mission-image-large {
+    width: 100%;
+  }
+}

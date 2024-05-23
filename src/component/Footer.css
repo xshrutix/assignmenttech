@@ -1,0 +1,30 @@
+.so:hover{
+    color: rgb(0, 136, 255)!important;
+    font-size: 35px!important;
+    }
+    .so{
+        border-bottom:3px solid rgb(224, 189, 12);
+    }
+    /* .lk:hover{
+        color: rgb(224, 189, 12)!important;
+        font-size: 18px;
+    } */
+    .form-control::placeholder {
+        color: white;
+    }
+    .scroll-container {
+        display: flex;
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+        width: 100%;
+        white-space: nowrap; /* Ensures all child elements are on a single line */
+        padding-bottom: 10px; /* Optional: add some padding for aesthetics */
+    }
+    
+    .scroll-container img {
+        display: inline-block;
+        margin-right: 10px; /* Optional: add some space between images */
+    }
+    
+    
+    
