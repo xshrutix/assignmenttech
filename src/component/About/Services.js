@@ -3,7 +3,6 @@ import './Services.css';
 import img1 from '../img1.png';
 import img2 from '../img2.png';
 import img3 from '../img3.png';
-import img4 from '../image.png';
 import { Link } from 'react-router-dom';
 
 export const Services = () => {

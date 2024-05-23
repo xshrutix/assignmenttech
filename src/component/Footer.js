@@ -22,17 +22,17 @@ function Footer() {
                                 <div className="footer-social mt-5 mb-2">
 
                                     <Link to="https://www.facebook.com//" className='me-2' target='_blank'>
-                                    <img src={fb} alt="Image 1" className="img-fluid mb-2" style={{ width: '32px', height: '32px' }} />
+                                        <img src={fb} alt="Image 1" className="img-fluid mb-2" style={{ width: '32px', height: '32px' }} />
 
                                     </Link>
                                     <Link to="https://www.instagram.com/" className='me-2' target='_blank'>
-                                    <img src={in1} alt="Image 1" className="img-fluid mb-2" style={{ width: '32px', height: '32px' }} />
+                                        <img src={in1} alt="Image 1" className="img-fluid mb-2" style={{ width: '32px', height: '32px' }} />
                                     </Link>
                                     <Link to="https://www.twitter.com/" className='me-2' target='_blank'>
-                                    <img src={tw} alt="Image 1" className="img-fluid mb-2" style={{ width: '32px', height: '32px' }} />
+                                        <img src={tw} alt="Image 1" className="img-fluid mb-2" style={{ width: '32px', height: '32px' }} />
                                     </Link>
                                     <Link to="https://www.linkedin.com//" className='me-2' target='_blank'>
-                                    <img src={li} alt="Image 1" className="img-fluid mb-2" style={{ width: '32px', height: '32px' }} />
+                                        <img src={li} alt="Image 1" className="img-fluid mb-2" style={{ width: '32px', height: '32px' }} />
                                     </Link>
                                 </div>
                             </div>
@@ -83,7 +83,7 @@ function Footer() {
                             </div>
                             <div className='footer-link'>
                                 <h2 className='text-light mb-3' style={{ fontSize: "20px" }}>Stay up to date</h2>
-                                <input type="email" className="form-control text-light" id="emailAddress" placeholder='Your email address' aria-describedby="emailHelp" style={{ backgroundColor: 'rgb(171 171 171 / 27%)', color:'white',width:'255px',height:'40px',border:'0px'}} />
+                                <input type="email" className="form-control text-light" id="emailAddress" placeholder='Your email address' aria-describedby="emailHelp" style={{ backgroundColor: 'rgb(171 171 171 / 27%)', color: 'white', width: '255px', height: '40px', border: '0px' }} />
                             </div>
                         </div>
                     </div>
